@@ -1,0 +1,584 @@
+*{
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+}
+.light-mode{
+    background-color:#ffffff;
+
+}
+.light-mode-menu{
+    background-color: #e2e2e2;
+}
+.dark-mode{
+    background-color:#02092b;
+}
+.dark-mode-menu{
+    background-color: #02041f;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --maincolor:black;
+    --hocolor:red;
+}
+.logo{
+
+    display: flex;
+    justify-content: center;
+    line-height: 160px;
+}
+.maincontainer{
+    display: flex;
+}
+.menu{
+    padding-top: 140px;
+    width: 250px;
+    height: 695px;
+    position: fixed;
+    /* background-color: rgba(250, 250, 250, 0.1); */
+}
+.fa{
+    margin-right: 10px;
+    margin-left:15px;
+}
+.links{
+  width: 150px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+
+.links:hover{
+    background-color: inherit;
+    cursor: pointer;
+    color: white;
+    /* color: var(--hocolor); */
+    text-shadow: 0 0 10px #03bcf4,
+                 0 0 20px #03bcf4,
+                 0 0 40px #03bcf4,
+                 0 0 80px #03bcf4,
+                 0 0 160px #03bcf4;
+}
+.active{
+  text-shadow: 0 0 10px #03bcf4,
+               0 0 20px #03bcf4,
+               0 0 40px #03bcf4,
+               0 0 80px #03bcf4,
+               0 0 160px #03bcf4;
+}
+.social{
+  padding:11px;
+  text-decoration: none;
+  color: grey;
+  transition: 0.3s;
+}
+.social:hover{
+  text-decoration: none;
+  color: white;
+}
+.home{
+    /* background-color: rgb(227, 227, 233); */
+    width: 85%;
+    margin-left: 250px;
+}
+.about{
+    color: white;
+    font-size: 18px;
+    padding: 40px;
+    /* background-color: rgb(227, 227, 233); */
+    width: 85%;
+    margin-left: 250px;
+    height: 100%;
+}
+.servise{
+  color: white;
+    margin-left: 250px;
+    padding: 40px;
+}
+.portfolio{
+    color: white;
+    margin-left: 250px;
+    padding: 40px;
+
+}
+.contact{
+    /* background-color: rgb(227, 227, 233); */
+    margin-left: 250px;
+}
+.hide{
+    display: none;
+    width: 100%;
+    height: 695px;
+    /* background-color: rgb(181, 125, 125); */
+}
+.title{
+    /* color: var(--maincolor); */
+    margin: 40px 20px;
+    font-size: 30px;
+}
+.web{
+  text-shadow: 0 0 10px #ff0000,
+  0 0 20px #ff0000,
+  0 0 40px #ff0000,
+  0 0 80px #ff0000,
+  0 0 160px #ff0000;
+
+}
+.homecontent{
+    color: white;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    display: flex;
+    /* width: 95%; */
+    margin-right: 50px;
+}
+.text{
+    color: white;
+    text-shadow: 0 0 10px #03bcf4,
+                 0 0 20px #03bcf4,
+                 0 0 40px #03bcf4,
+                 0 0 80px #03bcf4,
+                 0 0 160px #03bcf4;
+}
+.text1{
+    color: white;
+    background: url();
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 10px #03bcf4,
+                 0 0 20px #03bcf4,
+                 0 0 40px #03bcf4,
+                 0 0 80px #03bcf4,
+                 0 0 160px #03bcf4;
+}
+#facebook{
+    font-size: 23px;
+    color: gray;
+}
+#facebook:hover{
+    color: rgb(69, 68, 68);
+}
+.text2{
+    font-size: 18px;
+    margin: 20px;
+}
+.homeimg{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:40px;
+    width: 270px;
+    height: 330px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: 0.5s;
+}
+.homeimg:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.change{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -300px;
+    margin-bottom: -250px;
+    /* position: fixed; */
+    cursor: pointer;
+}
+.more{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    color: var(--hocolor);
+}
+.aboutbtn{
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--hocolor);
+    border: none;
+}
+.more:hover{
+    background-color:var(--hocolor);
+    color: white;
+    box-shadow: -3px 3px 10px #03bcf4;
+}
+.aboutbtn:hover{
+    background-color:var(--hocolor);
+    color: white;
+    box-shadow: -3px 3px 10px #03bcf4;
+}
+.aboutTitle{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.under1{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 100px;
+}
+.under2{
+    margin: 0;
+    width: 50px;
+}
+
+.under3{
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+.aboutleft{
+    display: flex;
+    margin-right: 50px;
+}
+.aboutright{
+    width: 39%;
+}
+
+.skill{
+    font-size: 20px;
+}
+.text4{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.progress{
+    margin: 3px;
+}
+.aboutcontent{
+    display: flex;
+    margin: 20px;
+}
+
+.text5{
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+}
+.text6{
+    font-size: 25px;
+    color: var(--maincolor);
+    margin-top: 0px;
+    margin-bottom:10px;
+    margin-left:20px;
+}
+.abouttext{
+    font-size: 18px;
+    margin-left: 20px;
+    color: var(--maincolor);
+}
+.ul{
+    color: var(--maincolor);
+}
+
+.card{
+    padding: 20px;
+}
+.edu{
+    width: 49%;
+    margin: 10px;
+}
+.card1{
+    margin-bottom: 20px;
+}
+.aboutcontainer{
+    display: flex;
+}
+#icon{
+    font-size: 40px;
+    margin: 10px;
+    color: var(--hocolor);
+}
+.sertext{
+    color: white;
+}
+.servicecard2{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    width: 300px;
+    margin: 1px;
+    position: absolute;
+    inset: 2px;
+    /* background:rgba(255, 255, 255, 0.8); */
+    z-index: 2;
+    /* transition: 0.2s; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    margin: 20px 10px;
+    position: relative;
+    width: 306px;
+    height: 290px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box::before{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    /* background: linear-gradient(0deg, transparent, #fa0202 ,  #fa0202); */
+    width: 280px;
+    height: 320px;
+    top: -50%;
+    left: -50%;
+    animation: animate 6s linear infinite;
+    animation-play-state: paused;
+    transform-origin: bottom right;
+
+}
+
+.box::after{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    /* background: linear-gradient(0deg, transparent, #fa0202 ,  #fa0202); */
+    width: 280px;
+    height: 320px;
+    top: -50%;
+    left: -50%;
+    animation: animate 6s linear infinite;
+    animation-play-state: paused;
+    transform-origin: bottom right;
+    animation-delay: -3s;
+
+}
+.box:hover .servicecard2{
+    background-color: #02092b;
+}
+
+.box:hover:before{
+    background: linear-gradient(0deg, transparent, #05eff7 ,  #05eff7);
+    animation-play-state: running;
+}
+.box:hover:after{
+    background: linear-gradient(0deg, transparent, #fa0202 ,  #fa0202);
+    animation-play-state: running;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.text7{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom:10px;
+    margin-left:20px;
+    color: white;
+}
+.cro1{
+    width: 500px;
+    margin: auto;
+}
+.portimg{
+    width: 500px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.text8{
+    font-size: 35px;
+    text-align: left;
+    margin: 10px;
+    color: var(--hocolor);
+}
+.text9{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: var(--maincolor);
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
+.see{
+    font-size: 20px;
+    padding: 8px 13px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    color: var(--hocolor);
+}
+.see:hover .link{
+    color: white;
+}
+.see:hover{
+    background-color: red;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+
+    background-color: black;
+}
+.text10{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.text11{
+    font-size: 40px;
+    margin: 10px;
+    color: red;
+}
+.text12{
+    font-size: 18px;
+    text-align: center;
+
+}
+.contitle{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.context{
+    font-size: 25px;
+    color: red;
+}
+
+.context2{
+    font-size: 18px;
+    margin-left: 80px;
+}
+#con{
+    font-size: 30px;
+    color: black;
+    padding: 11px;
+}
+.concontent{
+    margin: 30px;
+    width: 500px;
+}
+.concontainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.conright{
+    width: 350px;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+form{
+    width: 100%;
+}
+.holder1{
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: -300px;
+    pointer-events: none;
+}
+.holder2{
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: -300px;
+    pointer-events: none;
+}
+.holder3{
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: -300px;
+    pointer-events: none;
+}
+.input1{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.input2{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.input3{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.input1:focus ~ .holder1,
+.input1:valid ~ .holder1
+{
+    font-size: 15px;
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+.input2:focus ~ .holder2,
+.input2:valid ~ .holder2
+{
+    font-size: 15px;
+    color: red;
+    font-size: 12px;
+    margin: 0;
+
+}
+.input3:focus ~ .holder3,
+.input3:valid ~ .holder3
+{
+    font-size: 15px;
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+
+}
+.conput{
+    margin-bottom: 30px;
+}
+.map{
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+
+}
