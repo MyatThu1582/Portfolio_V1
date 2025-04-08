@@ -19,8 +19,8 @@
 </head>
 <body class="dark-mode" id="body">
     <div class="maincontainer">
-        <div class="menu dark-mode-menu"  id="menu">
-          <img src="logo3.png" alt=""class="change">
+        <div class="menu dark-mode-menu" id="menu">
+          <img src="logo3.png" alt="" class="change">
             <div class="btns">
                 <a id="btn1" class="links ms-5">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
@@ -88,9 +88,7 @@
                     </h1>
                     <p id="text2" class="text2 ms-4 mb-4">I am a passionate web developer specializing in creating dynamic and user-friendly web applications and websites. With expertise in PHP and Laravel for backend development, I build robust and scalable solutions tailored to clients' needs. On the frontend, I utilize Bootstrap...</p>
                     <button class="more">More About Me</button>
-
                 </div>
-
                 <div class="homeright">
                     <img src="imgs/mt_cartoon.png" alt="" class="homeimg" style="object-fit: cover;">
                 </div>
@@ -201,8 +199,8 @@
         </div>
         <!-- about me -->
 
-        <!-- servise -->
-        <div class="hide servise" id="servise">
+        <!-- service -->
+        <div class="hide service" id="service">
             <div id="aboutTitle" class="aboutTitle">Service<hr class="under1" size="5"><hr class="under2" size="5"></div>
             <div class="boxcontainer">
                 <div class="box">
@@ -262,12 +260,14 @@
             </div>
             </div>
         </div>
-        <!-- servise -->
+        <!-- service -->
 
+        <!-- Portfolio -->
         <div class="hide portfolio" id="portfolio">
             <div id="aboutTitle" class="aboutTitle">Portfolio<hr class="under1" size="5"><hr class="under2" size="5"></div>
 
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel"> -->
+                <div id="demo" class="" data-bs-ride="carousel">
 
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" id="arrow"></button>
@@ -275,50 +275,63 @@
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
                 </div>
                 <div class="carousel-inner">
-                    <h1 class="text10">My recent projects</h1>
                     <div class="carousel-item active">
-                        <div class="cro1">
-                            <img src="imgs/mya.png" alt="" class="portimg">
-                        <h1 class="text8">Mya Sabel</h1>
-                        <div class="text9">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
-                            <button class="see"><a href="../Mya sabei/main.htm" class="link">See Website</a></button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="cro1">
-                            <img src="imgs/pro2.png" alt="" class="portimg">
-                        <h1 class="text8">Protech [Ver-2]</h1>
-                        <div class="text9">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
-                            <button class="see"><a href="../MT (Version-2)/Web Design/Main.htm" class="link">See Website</a></button>
-                        </div>
+                        <div class="cro1 d-flex">
+                            <div class="col-6">
+                                <img src="imgs/mya.png" alt="" class="portimg">
+                            </div>
+                            <div class="col-6 project_text">
+                                <h1 class="text8">Mya Sabel</h1>
+                                <div class="text9">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
+                                    <button class="see"><a href="../Mya sabei/main.htm" class="link">See Website</a></button>
+                                </div>
+                            </div>      
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="cro1">
-                            <img src="imgs/pro1.png" alt="" class="portimg">
-                        <h1 class="text8">Protech [Ver-1]</h1>
-                        <div class="text9">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
-                            <button class="see"><a href="../MT (Version-1)/Web Design/Main.htm" class="link">See Website</a></button>
+                        <div class="cro1 d-flex">
+                            <div class="col-6">
+                                <img src="imgs/pro2.png" alt="" class="portimg">
+                            </div>
+                            <div class="col-6">
+                                <h1 class="text8">Protech [Ver-2]</h1>
+                                <div class="text9">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
+                                    <button class="see"><a href="../MT (Version-2)/Web Design/Main.htm" class="link">See Website</a></button>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cro1 d-flex">
+                            <div class="col-6">
+                                <img src="imgs/pro1.png" alt="" class="portimg">
+                            </div>
+                            <div class="col-6">
+                                <h1 class="text8">Protech [Ver-1]</h1>
+                                <div class="text9">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.<br>
+                                    <button class="see"><a href="../MT (Version-1)/Web Design/Main.htm" class="link">See Website</a></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
-                </button>
+                </button> -->
 
             </div>
 
         </div>
+        <!-- Portfolio -->
 
+        <!-- contact -->
         <div class="hide contact" id="contact">
             <div id="aboutTitle" class="aboutTitle">Contact<hr class="under1" size="5"><hr class="under2" size="5"></div>
             <div class="contitle">
@@ -376,6 +389,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1727.148801351439!2d96.16639299621872!3d16.919218607251576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c191595e863a2d%3A0xe690c3a9c3101d34!2sAyar%20St%2014%2C%20Yangon!5e1!3m2!1sen!2smm!4v1675322249940!5m2!1sen!2smm" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+        <!-- contact -->
 
     <script src="main.js"></script>
 </body>

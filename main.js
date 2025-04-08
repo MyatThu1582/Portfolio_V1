@@ -1,7 +1,7 @@
 let body = document.querySelector("#body"); 
 let home = document.querySelector("#home");
 let about = document.querySelector("#about");
-let servise = document.querySelector("#servise");
+let service = document.querySelector("#service");
 let portfolio = document.querySelector("#portfolio");
 let contact = document.querySelector("#contact");
 let menu = document.querySelector(".menu");
@@ -15,61 +15,64 @@ let three = document.querySelector("#btn3");
 let four = document.querySelector("#btn4");
 let five = document.querySelector("#btn5");
 
+home.classList.add('hide');
+portfolio.classList.remove('hide');
+
 
 one.addEventListener('click',function(){
     home.classList.remove('hide');
     about.classList.add('hide');
-    servise.classList.add('hide');
+    service.classList.add('hide');
     portfolio.classList.add('hide');
     contact.classList.add('hide');
-    two.classList.remove('active');
-    three.classList.remove('active');
-    four.classList.remove('active');
-    five.classList.remove('active');
+    two.classList.remove('link_active');
+    three.classList.remove('link_active');
+    four.classList.remove('link_active');
+    five.classList.remove('link_active');
 })
 two.addEventListener('click',function(){
     home.classList.add('hide');
     about.classList.remove('hide');
-    servise.classList.add('hide');
+    service.classList.add('hide');
     portfolio.classList.add('hide');
     contact.classList.add('hide');
-    two.classList.add('active');
-    four.classList.remove('active');
-    three.classList.remove('active');
-    five.classList.remove('active');
+    two.classList.add('link_active');
+    four.classList.remove('link_active');
+    three.classList.remove('link_active');
+    five.classList.remove('link_active');
 })
 three.addEventListener('click',function(){
     home.classList.add('hide');
     about.classList.add('hide');
-    servise.classList.remove('hide');
+    service.classList.remove('hide');
     portfolio.classList.add('hide');
     contact.classList.add('hide');
-    three.classList.add('active');
-    two.classList.remove('active');
-    four.classList.remove('active');
-    five.classList.remove('active');
+    three.classList.add('link_active');
+    two.classList.remove('link_active');
+    four.classList.remove('link_active');
+    five.classList.remove('link_active');
 })
 four.addEventListener('click',function(){
     home.classList.add('hide');
     about.classList.add('hide');
-    servise.classList.add('hide');
+    service.classList.add('hide');
     portfolio.classList.remove('hide');
     contact.classList.add('hide');
-    four.classList.add('active');
-    two.classList.remove('active');
-    three.classList.remove('active');
-    five.classList.remove('active');
+    four.classList.add('link_active');
+    two.classList.remove('link_active');
+    three.classList.remove('link_active');
+    five.classList.remove('link_active');
 })
 five.addEventListener('click',function(){
     home.classList.add('hide');
     about.classList.add('hide');
-    servise.classList.add('hide');
+    service.classList.add('hide');
     portfolio.classList.add('hide');
     contact.classList.remove('hide');
-    five.classList.add('active');
-    two.classList.remove('active');
-    three.classList.remove('active');
-    four.classList.remove('active');
+    five.classList.add('link_active');
+    two.classList.remove('link_active');
+    three.classList.remove('link_active');
+    four.classList.remove('link_active');
 })
 change.addEventListener('click',function(){
     // menu.style.background = "rgba(10, 10, 10,0.3)";

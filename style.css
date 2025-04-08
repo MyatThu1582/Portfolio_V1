@@ -69,7 +69,7 @@ body{
                  0 0 80px #03bcf4,
                  0 0 160px #03bcf4;
 }
-.active{
+.link_active{
   text-shadow: 0 0 10px #03bcf4,
                0 0 20px #03bcf4,
                0 0 40px #03bcf4,
@@ -100,7 +100,7 @@ body{
     margin-left: 250px;
     height: 100%;
 }
-.servise{
+.service{
   color: white;
     margin-left: 250px;
     padding: 40px;
@@ -404,15 +404,17 @@ body{
     color: white;
 }
 .cro1{
-    width: 500px;
-    margin: auto;
+    margin: 50px 23px;
 }
 .portimg{
+    /* object-fit: cover; */
     width: 500px;
     height: 280px;
     margin-bottom: 20px;
 }
-
+.project_text{
+    margin: 10px 30px;
+}
 .text8{
     font-size: 35px;
     text-align: left;
@@ -453,11 +455,6 @@ body{
 {
 
     background-color: black;
-}
-.text10{
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 22px;
 }
 .text11{
     font-size: 40px;
